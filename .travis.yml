@@ -11,7 +11,9 @@ install:
 - pip install pip boto3 requests urllib3 -U
 
 script:
-#- make bundle
+  - python import.py
+# - nosetests
+
 
 branches:
   only:
