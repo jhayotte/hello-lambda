@@ -5,7 +5,7 @@ python:
 install:
 - pip install -q boto3
 - pip install -q urllib3
-- pip install -q json
+#- pip install -q json
 
 deploy:
   provider: "$provider"
