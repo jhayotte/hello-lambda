@@ -6,6 +6,7 @@ import boto3
 
 print('Loading function')
 
+print("connect to s3")
 s3 = boto3.client('s3')
 
 
